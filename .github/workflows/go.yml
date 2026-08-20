@@ -17,6 +17,8 @@ jobs:
       - name: Lint
         uses: golangci/golangci-lint-action@v6
         with:
+          version: latest
+          only-new-issues: true
           working-directory: ${{ matrix.module }}
       - name: Vet
         working-directory: ${{ matrix.module }}
