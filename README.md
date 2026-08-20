@@ -1,5 +1,8 @@
 # Prometheus Exporter example
 
+[![CI](https://github.com/mikejoh/exporter-example/actions/workflows/go.yml/badge.svg)](https://github.com/mikejoh/exporter-example/actions/workflows/go.yml)
+[![License](https://img.shields.io/github/license/mikejoh/exporter-example)](https://github.com/mikejoh/exporter-example/blob/master/LICENSE)
+
 _Work in progress!_
 
 This is an example of how to write a Prometheus Exporter in Go.
