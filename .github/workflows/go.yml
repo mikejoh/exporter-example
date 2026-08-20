@@ -13,7 +13,7 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v7
         with:
-          go-version-file: ${{ matrix.module }}/go.mod
+          go-version: stable matrix.module }}/go.mod
       - name: Lint
         uses: golangci/golangci-lint-action@v9
         with:
